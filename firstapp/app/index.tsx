@@ -7,9 +7,11 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "teal",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>Hello World!</Text>
+      <Text>My First React Native Cross Platform App</Text>
     </View>
   );
 }

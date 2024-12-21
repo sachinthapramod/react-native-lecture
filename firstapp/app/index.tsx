@@ -10,6 +10,10 @@ export default function Index() {
         backgroundColor: "teal",
       }}
     >
+      <Image
+        source={require('../assets/images/react-logo.png')}
+        style={styles.logo}
+      />
       <Text>Hello World!</Text>
       <Text>My First React Native Cross Platform App</Text>
     </View>
